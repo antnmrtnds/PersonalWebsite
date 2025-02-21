@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Ameda';
+    src: url('v1/fonts/AmedaDemo-Regular.ttf') format(truetype);
+}
+
+header {
+    font-family: 'Ameda';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-family: 'Ameda';
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.blur {
+    filter: blur(6px);
+    transition: filter 0.2s ease-in-out;
+}
+
+.blur:hover {
+    filter: blur(0px);
+}
+
+.social-links {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    display: inline;
+    margin: 0 15px;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: pink;
+}
+
+i:visited {
+    color: gray;
+}
+
+i:hover {
+    color: pink;
+}
+
+#insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    transform: translate(50%);
+}
